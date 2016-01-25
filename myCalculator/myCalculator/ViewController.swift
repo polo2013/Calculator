@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func operate(sender: UIButton) {
         let operation = sender.currentTitle!
-        print(operation)
+        //print(operation)
         if userIsInTheMiddleOfTypingANumber {
             enter()
         }
